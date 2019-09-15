@@ -1,4 +1,4 @@
-AC_INIT([libnsgif], [0.2.1])
+AC_INIT([libnsgif], [0.2.1-1])
 
 # foreign stops complaints about a missing README (we use README.md instead)
 # and missing INSTALL (the standard Gnu INSTALL is not very useful)
