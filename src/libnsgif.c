@@ -1220,3 +1220,4 @@ void gif_finalise(gif_animation *gif)
 
         lzw_context_destroy(gif->lzw_ctx);
         gif->lzw_ctx = NULL;
+}
