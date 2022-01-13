@@ -20,11 +20,14 @@ make install
 
 # To update
 
-When netsurf release a new version:
+Run:
 
-* copy in sources
-* except for `libnsgif.pc.in`, it needs modifying for autotools
-* reapply any patches from git, eg. no input modification
+```
+./update.sh
+```
+
+To clone the upstream libnsgif repo, copy in the source files and apply all
+patches.
 
 # To do
 
